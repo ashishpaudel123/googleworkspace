@@ -19,7 +19,7 @@ export default function ContactSalesButton({
   text,
 }: {
   variant: keyof typeof VARIANTS;
-  text: string;
+  text?: string;
 }) {
   const styles = VARIANTS[variant];
 
