@@ -23,12 +23,12 @@ export default function ContactSalesButton({
 
   return (
     <button
-      className={`flex items-center gap-3 px-3 py-2 rounded-lg border-2 text-lg font-medium cursor-pointer transition hover:-translate-y-0.5 ${styles.wrapper}`}
+      className={`flex items-center gap-3 px-4 py-2 rounded-xl border text-md font-medium cursor-pointer transition hover:-translate-y-0.5 ${styles.wrapper}`}
     >
       <span
-        className={`w-9 h-9 flex items-center justify-center rounded-full ${styles.iconBg}`}
+        className={`w-6 h-6 flex items-center justify-center rounded-full ${styles.iconBg}`}
       >
-        <Image src={styles.icon} alt="WhatsApp" width={24} height={24} />
+        <Image src={styles.icon} alt="WhatsApp" width={18} height={18} />
       </span>
       Contact Sales
     </button>
