@@ -3,10 +3,11 @@ import { ArrowUpRight } from "lucide-react";
 import { googleApps } from "@/lib/icons";
 import DiscountTicket from "../ui/discountCard";
 import { Button } from "../ui/button";
+import VideoDemo from "./Video";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col items-center text-center py-16 px-4 linear-gradient-to-b from-white via-bg-soft-blue to-bg-soft-pink">
+    <section className="flex flex-col items-center text-center py-16 px-4 linear-gradient-to-b from-white via-bg-soft-blue to-bg-soft-pink">
       <h1 className="text-4xl md:text-5xl font-medium text-brand-blue mb-4">
         Google Workspace
       </h1>
@@ -22,34 +23,34 @@ export default function Hero() {
         ))}
       </div>
 
-      <h2 className="text-3xl md:text-4xl font-bold text-brand-dark leading-snug max-w-4xl mb-4">
+      <h2 className="text-3xl md:text-5xl font-bold text-text-heading leading-snug max-w-6xl mb-4">
         <span className="text-brand-blue">किन केही</span> Businesses efficiently
-        <span className="text-brand-blue">चल्छन्</span>, र केही
+        <span className="text-brand-blue"> चल्छन्</span>, र केही
         <br />
         daily operations मै struggle
-        <span className="text-brand-blue">गर्छन्</span>?
+        <span className="text-brand-blue"> गर्छन्</span>?
       </h2>
 
-      <p className="text-lg text-brand-dark max-w-2xl">
-        Reason luck,ads वा team size होइन. Reason हो right partner with right
+      <p className="text-lg text-text-body max-w-2xl">
+        Reason luck, ads वा team size होइन. Reason हो right partner with right
         tools.
       </p>
 
       <DiscountTicket
-        className="mt-8"
+        className="mt-12"
         topLabel="DISCOUNT"
         bottomLabel="UP TO"
         value="20%"
       />
       <DiscountTicket
-        className="mt-2 rotate-3 mb-8"
+        className="mt-2 rotate-3 mb-12"
         topLabel="After"
         bottomLabel="Discount"
         isPrice
         value="499"
       />
 
-      <p className="text-lg font-semibold text-brand-dark max-w-2xl mb-8">
+      <p className="text-lg font-semibold text-text-body max-w-2xl mb-8">
         Everything Your Business Needs to Work Smarter. A complete Google
         Workspace setup done right by Nest Nepal.
       </p>
@@ -72,6 +73,7 @@ export default function Hero() {
           <ArrowUpRight className="w-4 h-4" />
         </Button>
       </div>
+      <VideoDemo />
     </section>
   );
 }
