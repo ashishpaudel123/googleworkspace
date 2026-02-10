@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/public/assets/icons/logo.png";
+import { icons } from "@/lib/icons";
 import CountdownTimer from "@/components/ui/countdownTimer";
 import ContactSalesButton from "@/components/ui/contactSalesButton";
 
@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <div className="flex items-center justify-between px-8 py-4 bg-background">
         <a className="block" href="#">
-          <Image src={logo} alt="Logo" width={180} />
+          <Image src={icons.logo.src} alt={icons.logo.alt} width={180} />
         </a>
         <div className="hidden md:block">
           <CountdownTimer />

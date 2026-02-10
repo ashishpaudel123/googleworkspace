@@ -1,16 +1,16 @@
 import Image from "next/image";
-import whatsappgreen from "@/public/assets/icons/whatsappgreen.png";
-import whatsappink from "@/public/assets/icons/whatsappink.png";
+import { icons } from "@/lib/icons";
+
 const VARIANTS = {
   green: {
     wrapper: "border-green-500 bg-green-50 text-green-600",
     iconBg: "bg-green-500",
-    icon: whatsappgreen,
+    icon: icons.whatsappGreen.src,
   },
   red: {
     wrapper: "border-pink-500 bg-pink-50 text-pink-500",
     iconBg: "bg-pink-500",
-    icon: whatsappink,
+    icon: icons.whatsappPink.src,
   },
 };
 
