@@ -5,7 +5,7 @@ import { trustedByList } from "@/lib/trustedby";
 
 export default function TrustedBy({ className }: { className?: string }) {
   return (
-    <section className={`py-8 px-8 ${className}`}>
+    <section className={`py-16 px-8 ${className}`}>
       <h2 className="max-w-xl mx-auto text-center text-2xl md:text-md font-light text-text-muted mb-12">
         Trusted by 1,000+ Nepali businesses on their growth journey.{" "}
         <span className="text-accent-pink">अब तपाईंको team तयार छ?</span>
