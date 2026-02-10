@@ -45,12 +45,10 @@ export default function CountdownTimer() {
   }, [targetDate]);
 
   return (
-    <div className="flex flex-col items-center py-4 relative">
-      <h3 className="dancing-script text-accent-pink text-3xl mb-1 z-10">
-        {offer}
-      </h3>
+    <div className="flex flex-col items-center">
+      <h3 className="dancing-script text-accent-pink text-3xl z-10">{offer}</h3>
 
-      <div className="flex gap-4 items-start absolute -bottom-6 z-0">
+      <div className="flex gap-4 items-start -mt-3">
         <TimeUnit value={timeLeft.days} label="Days" />
         <span className="text-brand-blue text-3xl font-bold">:</span>
         <TimeUnit value={timeLeft.hrs} label="Hrs" />
