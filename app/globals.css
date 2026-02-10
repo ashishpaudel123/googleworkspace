@@ -14,10 +14,14 @@
 
 @theme inline {
   --color-brand-blue: #146de1;
-  --color-brand-dark: #040814;
+  --color-brand-dark: #020817;
 
   --color-accent-pink: #f25277;
   --color-accent-green: #11a925;
+
+  --color-text-heading: #020817;
+  --color-text-body: #242424;
+  --color-text-muted: #404c5d;
 
   --color-ui-white: #ffffff;
   --color-ui-gray-light: #f3f4f6;
