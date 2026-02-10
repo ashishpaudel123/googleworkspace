@@ -5,7 +5,7 @@ import ContactSalesButton from "@/components/ui/contactSalesButton";
 
 export default function Header() {
   return (
-    <header className={`sticky top-0 z-50 bg-background `}>
+    <header>
       <div className="flex items-center justify-between px-8 py-4">
         <a className="block" href="#">
           <Image src={icons.logo.src} alt={icons.logo.alt} width={180} />
