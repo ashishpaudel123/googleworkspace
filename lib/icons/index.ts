@@ -51,24 +51,4 @@ export const googleApps = [
   icons.meet,
 ] as const;
 
-// All Google Workspace products
-export const allGoogleProducts = [
-  icons.gmail,
-  icons.calendar,
-  icons.drive,
-  icons.docs,
-  icons.sheets,
-  icons.slides,
-  icons.meet,
-  icons.chat,
-  icons.forms,
-  icons.keep,
-  icons.sites,
-  icons.tasks,
-  icons.appsheet,
-  icons.vids,
-  icons.gemini,
-  icons.notebooklm,
-] as const;
-
 export type IconName = keyof typeof icons;
