@@ -16,8 +16,10 @@ const VARIANTS = {
 
 export default function ContactSalesButton({
   variant = "green",
+  text,
 }: {
   variant: keyof typeof VARIANTS;
+  text: string;
 }) {
   const styles = VARIANTS[variant];
 
@@ -30,7 +32,7 @@ export default function ContactSalesButton({
       >
         <Image src={styles.icon} alt="WhatsApp" width={18} height={18} />
       </span>
-      Contact Sales
+      {text || "Contact Sales"}
     </button>
   );
 }
