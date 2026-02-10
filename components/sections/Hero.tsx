@@ -7,7 +7,10 @@ import VideoDemo from "./Video";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center text-center py-16 px-4 linear-gradient-to-b from-white via-bg-soft-blue to-bg-soft-pink">
+    <section className="relative flex flex-col items-center text-center py-16 px-4 overflow-hidden">
+      {/* Gradient background blobs */}
+      <div className="absolute inset-y-0 -left-40 w-80 h-full bg-brand-blue/10 rounded-full blur-3xl -z-10" />
+      <div className="absolute inset-y-0 -right-40 w-80 h-full bg-accent-pink/12 rounded-full blur-3xl -z-10" />
       <h1 className="text-4xl md:text-5xl font-medium text-brand-blue mb-4">
         Google Workspace
       </h1>
