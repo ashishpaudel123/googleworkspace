@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "@/public/assets/icons/logo.png";
-import CountdownTimer from "@/components/ui/CountdownTimer";
+import CountdownTimer from "@/components/ui/countdownTimer";
 import ContactSalesButton from "@/components/ui/contactSalesButton";
 
 export default function Header() {
