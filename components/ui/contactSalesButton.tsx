@@ -23,7 +23,7 @@ export default function ContactSalesButton({
 
   return (
     <button
-      className={`flex items-center gap-3 px-4 py-2 rounded-xl border text-md font-medium cursor-pointer transition hover:-translate-y-0.5 ${styles.wrapper}`}
+      className={`flex items-center gap-2 md:gap-3 px-2 py-1 md:px-4 md:py-2 rounded-xl border text-sm md:text-md font-medium cursor-pointer transition hover:-translate-y-0.5 ${styles.wrapper}`}
     >
       <span
         className={`w-6 h-6 flex items-center justify-center rounded-full ${styles.iconBg}`}
