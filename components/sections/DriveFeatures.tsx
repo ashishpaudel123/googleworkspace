@@ -27,9 +27,6 @@ const features = [
 export default function DriveFeatures({ className }: { className?: string }) {
   return (
     <section className={`relative py-16 px-8 overflow-hidden ${className}`}>
-      {/* Gradient background blobs */}
-      <div className="absolute inset-y-0 -left-40 w-80 h-full bg-brand-blue/10 rounded-full blur-3xl -z-10" />
-      <div className="absolute inset-y-0 -right-40 w-80 h-full bg-accent-pink/10 rounded-full blur-3xl -z-10" />
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
